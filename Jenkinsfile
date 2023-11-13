@@ -6,7 +6,7 @@ pipeline {
         }
     }
     environment {
-        DOCKER_HOST = 'tcp://localhost:2376'
+        DOCKER_HOST = 'tcp://localhost:8080'
     }
     stages {
         stage('Build') { 
