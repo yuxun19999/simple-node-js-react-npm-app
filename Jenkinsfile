@@ -5,7 +5,7 @@ pipeline {
             args '-p 3000:3000' 
             reuseNode true
             registryUrl 'https://index.docker.io/v1/'
-            customWorkspace '/Users/yuxun/Documents/GitHub/simple-node-js-react-npm-app'
+            
         }
     }
     stages {
