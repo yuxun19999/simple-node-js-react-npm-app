@@ -5,9 +5,7 @@ pipeline {
             args '-p 3000:3000' 
         }
     }
-    environment {
-        DOCKER_HOST = 'tcp://localhost:8080'
-    }
+    
     stages {
         stage('Build') { 
             steps {
